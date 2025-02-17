@@ -1,10 +1,6 @@
 <?php
-    $topi_bundar = "<h2> <i> Topi Saya Bundar,";
-    $bundar_topi = "Bundar Topi Saya </i></h2>";
+    $topi_bundar = "\"Topi Saya Bundar,";
+    $bundar_topi = "Bundar Topi Saya\"";
 
-    echo  $topi_bundar . " " .  $bundar_topi; 
+    echo  "<h2><i>" . $topi_bundar . " " .  $bundar_topi . "</i></h2>"; 
 ?>
-
-
-
-
