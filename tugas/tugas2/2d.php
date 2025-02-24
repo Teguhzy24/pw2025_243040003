@@ -35,7 +35,6 @@
         for ($i = 0; $i < 5; $i++) { 
             echo "<tr>";
             for ($j = 0; $j < 5; $j++) { 
-                // Cek apakah kotak berwarna hitam atau putih berdasarkan posisi genap/ganjil
                 $class = ($i + $j) % 2 == 0 ? "black" : "white";
                 echo "<td class='$class'></td>";
             }

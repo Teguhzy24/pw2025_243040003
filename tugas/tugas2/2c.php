@@ -20,9 +20,9 @@
 <body>
     <table>
         <?php
-        for ($i = 10; $i >= 1; $i--) { // Loop mundur dari 10 ke 1
+        for ($i = 10; $i >= 1; $i--) { 
             echo "<tr>";
-            for ($j = 1; $j <= $i; $j++) { // Loop maju dari 1 ke i
+            for ($j = 1; $j <= $i; $j++) { 
                 echo "<td>$j</td>";
             }
             echo "</tr>";
