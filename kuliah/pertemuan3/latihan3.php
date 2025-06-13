@@ -6,6 +6,8 @@ echo "<h2>Pengulangan 1 - 10</h2>";
 for ($i = 1; $i <= 100; $i++) {
     echo $i . "<br>";
 }
+
+
 $jum_angkot = 10;
 $no_angkot = 1;
 $angkot_rusak = 5;

@@ -14,6 +14,7 @@ $makanan = ['mie ayam', 'bakso', 'ayam geprek', 'siomay', 'telor'];
 </head>
 
 <body>
+
     <h2>Daftar Binatang</h2>
     <ul>
 
@@ -22,13 +23,12 @@ $makanan = ['mie ayam', 'bakso', 'ayam geprek', 'siomay', 'telor'];
         <?php }; ?>
     </ul>
 
+
     <h2>Daftar Makanan</h2>
-
     <ul>
-
-        <?php for ($i = 0; $i < count($makanan); $i++) { ?>
-            <ol><?php echo $makanan($i); ?></ol>
-        <?php } ?>
+        <?php foreach ($makanan as $mkn) : ?>
+            <li> <?php echo $mkn; ?> </li>
+        <?php endforeach ?>
     </ul>
 
 </body>
